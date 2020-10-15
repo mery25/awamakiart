@@ -22,3 +22,18 @@ This website will have:
     - Artisan profile: Will give a description about the kind of work that makes an artisan and about their life. Will give a whatsapp or the preferred contact way for the artisan to contact him/her.
 
     - Payment checkout: Will give the option to pay by paypal. Otherwise the client can contact the artisan to use another platform for the payment.
+
+
+### Use cases
+
+![use](./docs/images/use-cases.png)
+
+
+### Flow diagram
+
+![use](./docs/images/flow-diagram.png)
+
+
+### Wireframe
+
+![use](./docs/images/wireframe.png)
