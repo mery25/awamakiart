@@ -174,13 +174,11 @@ section {
 	top:1px;
 }
 
-
 #contact {
     resize: none;
     height: 50px;
     margin: 0.5rem 0;
 }
-
 
 input[type=checkbox], #nav-toggle-label{
     display: none;
@@ -375,6 +373,7 @@ input[type=checkbox]:checked~#nav-toggle-label .menu-icon {
     margin: 0.2rem 25%;
 }
 
+/* FOOTER SECTION */
 .footer {
     background: #262626;
     color: #afabab;
