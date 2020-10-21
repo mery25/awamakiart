@@ -30,11 +30,10 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   /* background-color: #E0E3C9;*/
-   background-color: #E0E3C9;
-   flex-wrap: wrap;
-   z-index: 10;
-   min-height: 4rem;
+    background-color: #F2F3E9;
+    flex-wrap: wrap;
+    z-index: 10;
+    min-height: 4rem;
 }
 #header-img {
     max-width: 100%;
@@ -71,7 +70,7 @@ body {
     padding: 0 0.75rem;
 }
 #nav-bar ul li:hover {
-    background-color: #eff1e4;
+    background-color: #FBFCF8;
 }
 .nav-link {
     height: 100%;
@@ -253,7 +252,7 @@ input[type=checkbox]:checked~#nav-toggle-label .menu-icon {
     gap: 1rem;
     justify-content: center;
     margin: 0rem 2rem;
-    background: rgb(224 227 201 / 0.5);
+    background: #E6E8D3;
 }
 
 .step-container {
@@ -353,7 +352,7 @@ input[type=checkbox]:checked~#nav-toggle-label .menu-icon {
     margin: -0.2rem -0.7rem;
     left: -2.5rem;
     z-index: 3;
-    background: #EFF1E4;
+    background: #E6E8D3;
     float: left;
     position: relative;
     padding: .5rem;
