@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- OXYGEN FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    
+    <!-- CUSTOM STYLE -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header id="header">
+        <div id="header-img-container">
+            <img id="header-img" src="images/logo3.png" alt="AkamakiART Logo">
+        </div>
+        <input type="checkbox" id="nav-toggle" role="button">
+        <label id="nav-toggle-label" for="nav-toggle">
+            <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+       
+             </div>
+        </label>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#features-section">Features</a></li>
+                <li><a class="nav-link" href="#howitworks-section">How it works</a></li>
+                <li><a class="nav-link" href="#products-section">Products</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="form-section">
+        <img src="images/incaart.png" alt="" id="bg-image">
+        <h1 id="title">Choose more than<br>a gift...<br>Collaborate with<br>a cause.</h1>
+        <form id="form" action="#">
+            <p>Do you love handmade art?<br/>Do you create handmade art?<br/>Will send you more information!</p>
+            <input id ="email" type="email" placeholder="Write your email..." required>
+            <input id="submit" type="submit" value="I want to know more!" placeholder="Write your message">
+        </form>
+    </section> 
+    <section id="features-section">
+        <div class="feature">
+            <div class="icon">
+                <img src="images/fairtrade.png" alt="Fairtrade">
+            </div>
+            <div class="desc">
+                <h2>Fair Trade</h2>
+                <p>Ethical buying. Using this platform you ensure you are helping artisans, not chains or big companies.</p>    
+            </div>
+        </div>
+        <div class="feature">
+            <div  class="icon">
+                <img src="images/charitable.png" alt="Charitable">
+            </div>
+            <div class="desc">
+                <h2>Conscious Shopping</h2>
+                <p>You are not buying a gift, you are helping a cause. You are investing in a story which touch your heart.</p>    
+            </div>
+        </div>
+        <div class="feature">
+            <div  class="icon">
+                <img src="images/safepayment1.png" alt="Safe payment">
+            </div>
+            <div class="desc">
+                <h2>Safe Payment</h2>
+                <p>Your payment will be done by paypal to ensure your money until your shipping has arrived.</p>
+            </div>
+        </div>
+    </section>
+    <section id="howitworks-section">
+        <article class="step-container">
+            <img src="images/one.svg" alt="One" class="step-img">
+            <p class="step-information">Take a look at our artisans' products. Choose any product that takes your attention.</p>
+        </article>
+        <article class="step-container">
+            <img src="images/two.svg" alt="Two" class="step-img">
+            <p class="step-information">Go to the artisans' profile to know its story and see all its products.</p>
+        </article>
+        <article class="step-container">
+            <img src="images/three.svg" alt="Three" class="step-img">
+            <p class="step-information">Contact the artisan if you want to know more information about him/her and to get a personalised work.</p>
+        </article>
+        <article class="step-container">
+            <img src="images/four.svg" alt="Four" class="step-img">
+            <p class="step-information">Buy your personalised product.</p>
+        </article>
+    </section>
+    <section id="products-section">
+        <div class="products">
+            <div class="product">
+                <a href="#" class="artisan-link">
+                    <div class="artisan">
+                        <img src="images/artisan1.jpg" alt="Artisan profile image" class="artisan-img">
+                        <h5 class="artisan-name">Emidth</h5>
+                    </div>
+                </a>
+                <img class="product-img" src="images/product1.jpeg" alt="Product image">
+                <h3>Colorful wayuu bag</h3>
+                <p class="product-description">Made with the guajiro thread and with the typical fabric of the Colombian Wayuus ethnic group.</p>
+                <a href="#" class="product-details">More details  <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div class="product">
+                <a href="#" class="artisan-link">
+                    <div class="artisan">
+                        <img src="images/artisan1.jpg" alt="" class="artisan-img">
+                        <h5 class="artisan-name">Juan</h5>
+                    </div>
+                </a>
+                <img class="product-img" src="images/product2.jpg" alt="Product image">
+                <h3>Macrame wipala wristband</h3>
+                <p class="product-description">Made with macrame thread and the inca macrame fabric.</p>
+                <a href="#" class="product-details">More details  <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div class="product">
+                <a href="#" class="artisan-link">
+                    <div class="artisan">
+                        <img src="images/artisan1.jpg" alt="Artisan profile image" class="artisan-img">
+                        <h5 class="artisan-name">Wayra</h5>
+                    </div>
+                </a>
+                <img class="product-img" src="images/product3.jpg" alt="Product image">
+                <h3>Blue otavalo poncho</h3>
+                <p class="product-description">Handmade typical Otavalo poncho</p>
+                <a href="#" class="product-details">More details  <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </div>
+        <a href="#" class="more-products">MORE PRODUCTS</a>
+    </section>
+    <footer class="footer">
+        <div class="company-information">
+            <h3 class="company-name">AwamakiART</h3>
+            <p>Non-profit company created with the objective of helping small artisans to survive. At the same time, to promote a more sustainable consumption model.</p>
+        </div>
+        <div class="contact">
+            <form id="contact-form" action="#">
+                <h4>Get in touch!</h4>
+                <div class="contact-name">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" placeholder="Write your name..." required>
+                </div>
+                <div class="contact-email">
+                    <label for="email">Email</label>
+                    <input id ="email" type="email" placeholder="Write your email..." required>
+                </div>
+                <div class="contact-message">
+                    <label for="contact">Message</label>
+                    <textarea name="contact-message" id="contact" cols="30" rows="10"></textarea>
+                </div>
+                <input id="submit" type="submit" value="Submit" placeholder="Write your message">
+            </form>
+        </div>
+        <div class="social">
+            <h4>Follow me on...</h4>
+            <div class="links">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
